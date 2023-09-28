@@ -1,0 +1,19 @@
+.similarExercises{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.similarExercises__heading{
+    text-align: center;
+    color: rgb(208, 47, 47);
+    /* margin-top: 20px; */
+}
+.similarExercises__div{
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

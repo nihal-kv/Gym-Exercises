@@ -1,0 +1,10 @@
+.scrollBar{
+    display: flex;
+    margin-top: 20px;
+    overflow-x: scroll;
+    width: 80%;
+}
+
+.scrollBar::-webkit-scrollbar {
+    display: none;
+  }

@@ -1,0 +1,33 @@
+.exerciseVideos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.exerciseVideos__heading{
+    margin-bottom: 12px;
+    text-align: center;
+}
+.exerciseVideos h2 span{
+    text-transform: capitalize;
+    color: rgb(204, 55, 55);
+}
+.exerciseVideos__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.exerciseVideos__divAnchor{
+    margin: 15px;
+    width: 300px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.exerciseVideos__image{
+    width: 270px;
+    height: 270px;
+}

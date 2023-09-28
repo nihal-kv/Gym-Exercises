@@ -1,0 +1,49 @@
+.exerciseCard{
+    /* border-bottom: 2px solid rgb(219, 57, 57); */
+    /* border-top: 4px solid rgb(219, 57, 57); */
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+   
+    
+}
+.exerciseCard__gif{
+    border-top: 4px solid rgb(219, 57, 57);
+    width: 270px;
+}
+
+.exerciseCard__link{
+    text-decoration: none;
+}
+.exerciseCard__details{
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.exerciseCard__details1{
+    color: white;
+
+    background-color: rgb(219, 57, 57);
+    padding: 7px;
+    border-radius: 12px;
+}
+.exerciseCard__details2{
+    color: white;
+    
+    background-color: rgb(148, 148, 57);
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.exerciseCard__name{
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin: auto;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
