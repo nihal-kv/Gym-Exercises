@@ -30,13 +30,13 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     }
   };
 
-  const url = "https://exercisedb.p.rapidapi.com/exercises";
+  const url = 'https://exercisedb.p.rapidapi.com/exercises';
   const options = {
-    method: "GET",
+    method: 'GET',
     headers: {
-      "X-RapidAPI-Key": "d963918a82msh728d6f952f3e926p10e199jsnf084ff40744f",
-      "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-    },
+      'X-RapidAPI-Key': '48a4968fd0mshd43be65cb20f191p150dd5jsn81f51b96023f',
+      'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
+    }
   };
 
   useEffect(() => {

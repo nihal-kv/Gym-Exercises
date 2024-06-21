@@ -5,3 +5,10 @@
   margin-left: 10vw;
   
 }
+
+@media (max-width: 600px){
+  .app{
+    min-width: 112vw;
+    min-height: 120vh;
+  }
+}
